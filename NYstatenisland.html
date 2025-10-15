@@ -25,6 +25,8 @@
 		table td { border: 1px solid rgb(0, 217, 255); }*/
 
 /* ONLINE PRINT TO DIGITAL TEXT  *
+https://reader.si.silive.com
+https://myaccount.silive.com 
 REPLACE:
 https://myaccount.silive.com 
 https://reader.si.silive.com
@@ -101,10 +103,14 @@ phone #. (718) 816-3900
 
 
 		/* CLIENT-SPECIFIC STYLES */
-        .moonTop {background-image: url("Assets/Moon.png"); background-position: top; background-repeat: no-repeat;  background-size: 30%;}  
         .subBttn {  transition: all 0.2s ease-in-out; }
         .subBttn:hover td {background-color: #aaaaac !important; transition: all 0.2s ease-in-out; }
         .subBttn td:hover {background-color: #1C1E22!important; transition: all 0.2s ease-in-out;}
+        .CTAbuttons {  transition: all 0.2s ease-in-out; }
+        .CTAbuttons:hover .CTAbutton {background-color: #6c01d4 !important; border: 2px solid #e7e7e7 !important; transition: all 0.2s ease-in-out; }
+        .CTAbuttons .CTAbutton:hover {background-color: #fff!important; border: 2px solid #fff !important; transition: all 0.2s ease-in-out;}
+        .CTAbuttons:hover .CTAbutton font {color: #e7e7e7 !important; transition: all 0.2s ease-in-out; }
+        .CTAbuttons .CTAbutton:hover font {color: #6c01d4!important; transition: all 0.2s ease-in-out;}
         :hover.bttnSafe {transition: all 0.2s ease-out;}
         :hover.bttnSafe a {color: #ffffffff !important; transition: all 0.2s ease-out;}
         .bttnSafe {transition: all 0.2s ease-out;}
@@ -283,7 +289,7 @@ phone #. (718) 816-3900
 			.h2-text-resize { font-size:26px !important; line-height:1.1 !important; }
 			.h3-text-resize { font-size:20px !important; line-height:30px !important; }
 			.intro-text-resize { font-size:14px !important; line-height:1.75 !important; margin-left: 0px !important; margin-right: 0px !important; text-indent: 10px !important; padding-left: 0 !important;}
-			.italic-text-resize { font-size:14px !important; line-height:1.75 !important; margin-left: 0px !important; margin-right: 0px !important;  }
+			.intro-text-resize { font-size:14px !important; line-height:1.75 !important}
             .bullet-text-resize { font-size:14px !important; line-height:1.75 !important; padding-left: 10px !important; margin-right: 0px !important;  }
             .footer-text-resize { font-size:12.5px !important; line-height:20px !important; }
             .footerButton {width: 120px !important;}
@@ -364,7 +370,7 @@ phone #. (718) 816-3900
 		    <td align="center" valign="top">
                 
                 <!-- START BODY BOX-->
-				<table class="mobile-300 " role="presentation" width="600" style="background-color:#6c01d4;" bgcolor="#6c01d4" cellpadding="0" cellspacing="0" border="0">
+				<table class="mobile-320" role="presentation" width="600" style="background-color:#6c01d4;" bgcolor="#6c01d4" cellpadding="0" cellspacing="0" border="0">
                     <tr>
 			        <td align="center" valign="top">
                         <!-- START HERO -->
@@ -373,7 +379,7 @@ phone #. (718) 816-3900
                             <table class="mobile-320" role="presentation" width="600" cellpadding="0" cellspacing="0" border="0">
                                 <tr>
                                     <td align="center" class="imgresize100">
-                                        <img src="https://media.sailthru.com/fss/fld6id/07448849-611d-4465-92b5-be3041c50d18/XX+HalloweenMain.gif" width="100%" height="auto" style="margin:0; padding:0; border:none;" border="0" alt="Monsters, magic & mayhem!"/>
+                                        <img src="https://media.sailthru.com/fss/fld6id/0b97618f-017f-4b47-abe4-60fef3f13bac/NY+SIA+HalloweenMain.gif" width="100%" height="auto" style="margin:0; padding:0; border:none;" border="0" alt="Monsters, magic & mayhem!"/>
                                     </td>
                                 </tr>
                             </table>
@@ -384,17 +390,23 @@ phone #. (718) 816-3900
                         <!-- START MAIN HEADLINE/INTRO/BUTTON GROUP -->
                         <tr>
                             <td align="center" valign="top">
-                            <!-- HEAD ALIGNMENT TABLE -->
-                            <table class="mobile-280" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0">
-
+                            <!-- INTRO ALIGNMENT TABLE -->
+                            <table class="mobile-300" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0">
                                 <tr>
                                     <td align="center" valign="top">
-                                        <p class="intro-text-resize" style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 400; font-size: 16px; line-height: 26px; color: #e7e7e7; text-wrap: balance;"><strong>It's Halloween season,</strong> and we've conjured up a special section packed with everything you need to celebrate in style — haunted places you can visit, frightfully-delicious recipes, must-watch horror movies and so much more. Prepare for scares when you click through your online newspaper to a subscriber exclusive Halloween special section..</p>
+                                    <!-- INTRO ALIGNMENT TABLE INNER-->
+                                    <table class="mobile-220" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0">
+                                        <tr>
+                                            <td align="center" valign="top">
+                                                <p class="intro-text-resize" style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-weight: 400; font-size: 16px; line-height: 26px; color: #e7e7e7; text-wrap: balance;"><strong>It's Halloween season,</strong> and we've conjured up a special section packed with everything you need to celebrate in style — haunted places you can visit, frightfully-delicious recipes, must-watch horror movies and so much more. Prepare for scares when you click through your online newspaper to a subscriber exclusive Halloween special section.</p>
+                                            </td>
+                                        </tr>
+                                    </table>
                                     </td>
                                 </tr>
                                 <!-- SPACER BELOW INTRO -->
                                 <tr>
-                                    <td height="10" style="font-size:10px; line-height:1;">&nbsp;</td>
+                                    <td height="24" style="font-size:10px; line-height:1;">&nbsp;</td>
                                 </tr>
                                 <!-- START DECK -->
                                 <tr>
@@ -403,6 +415,37 @@ phone #. (718) 816-3900
                                     </td>
                                 </tr>
                                 <!-- END DECK -->
+                                    <!-- SPACER BELOW INTRO --><tr><td height="24" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
+                                    <tr>
+                                        <td align="center" valign="top">
+                                            <!-- BUTTONS ALIGNMENT TABLE INNER-->
+                                                <table class="mobile-280 CTAbuttons" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0">
+                                                    <tr>
+                                                        <td align="center" valign="top">
+                                                            <table class="mobile-280" role="presentation" width="300" cellpadding="0" cellspacing="0" border="0">
+                                                                <tbody><tr>
+                                                                    <td align="center" height="40" width="300" style="background-color:#e7e7e7; -moz-border-radius: 0px; -webkit-border-radius: 0px; border-radius: 0px; border: 2px solid #e7e7e7;" class="CTAbutton">
+                                                                        <a href="https://myaccount.silive.com " target="_blank" style="display:block; font-family: Helvetica, Arial, sans-serif; text-decoration:none; text-align:center; font-size:12px; mso-line-height-rule:exactly; line-height:22px; font-weight: bold; text-transform: uppercase;  letter-spacing: 2px;"><font style="color:#6c01d4; font-family: Helvetica, Arial, sans-serif;">activate your account</font></a></td>
+                                                                </tr></tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                    <!-- SPACER BELOW INTRO --><tr><td height="16" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
+                                                    <tr>
+                                                        <td align="center" valign="top">
+                                                            <table class="mobile-280" role="presentation" width="300" cellpadding="0" cellspacing="0" border="0">
+                                                                <tbody><tr>
+                                                                    <td align="center" height="40" width="300" style="background-color:#6c01d4; -moz-border-radius: 4px; -webkit-border-radius: 0px; border-radius: 0px; border: 2px solid #e7e7e7;" class="CTAbutton" >
+                                                                        <a href="https://reader.si.silive.com" target="_blank" style="display:block; font-family: Helvetica, Arial, sans-serif; text-decoration:none; text-align:center; font-size:12px; mso-line-height-rule:exactly; line-height:22px; font-weight: bold; text-transform: uppercase;  letter-spacing: 2px;"><font style="color:#e7e7e7; font-family: Helvetica, Arial, sans-serif;">See the online newspaper</font></a></td>
+                                                                </tr></tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                    <!-- SPACER BELOW INTRO --><tr><td height="24" style="font-size:10px; line-height:1;">&nbsp;</td></tr>
+                                                </table>
+                                        </td>
+                                    </tr>
+                            </table>
                             </td>
                         </tr>
                         <!-- END MAIN HEADLINE/INTRO/BUTTON GROUP -->
@@ -433,12 +476,6 @@ phone #. (718) 816-3900
             </tr>
         </table>
     <!-- !!!!!! END MAIN CONTENT !!!!!! -->
-
-</td>
-</tr>
-</table>
-</section>
-<!-- END FULL WIDTH ALL CONTENT -->
 
 </td>
 </tr>
@@ -479,7 +516,7 @@ phone #. (718) 816-3900
                         <table class="mobile-320" role="presentation" width="400" cellpadding="0" cellspacing="0" border="0" style="background-color:#e7e7e7;" bgcolor="#e7e7e7">
                             <tr>
                                 <td align="center" valign="top">  
-								    <table class="mobile-240" role="presentation" width="340"  border="0" cellspacing="0" cellpadding="0">
+								    <table class="mobile-320" role="presentation" width="340"  border="0" cellspacing="0" cellpadding="0">
 									    <tr>
 										    <td width="100" height="40" class="hoverClicks" style="border-radius:0px; background-color: #e7e7e7;" align="center">
 											    <a rel="noopener" href="https://www.silive.com/contactus/" target="_blank"  style="font-family:'Helvetica Neue', Helvetica, Arial, sans-serif; color:#1C1E22; font-size: 12; line-height: 1.5; font-weight: bold; text-align: center; text-transform: uppercase; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; display: block; font-style: normal; text-decoration: none;">Contacts</a>
